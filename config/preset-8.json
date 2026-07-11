@@ -1,0 +1,32 @@
+{
+  "name": "nova-router-2053",
+  "version": "1.0.8",
+  "description": "An autonomous real-time dashboard scaffolded by PushForge Engine.",
+  "modules": [
+    {
+      "name": "mod-0",
+      "desc": "real-time dashboard module 0"
+    },
+    {
+      "name": "mod-1",
+      "desc": "real-time dashboard module 1"
+    },
+    {
+      "name": "mod-2",
+      "desc": "real-time dashboard module 2"
+    },
+    {
+      "name": "mod-3",
+      "desc": "real-time dashboard module 3"
+    }
+  ],
+  "runtime": {
+    "node": ">=20",
+    "python": ">=3.11"
+  },
+  "scripts": {
+    "dev": "node src/app.js",
+    "build": "tsc -p .",
+    "deploy": "bash scripts/setup.sh"
+  }
+}
